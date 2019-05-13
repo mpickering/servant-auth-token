@@ -30,6 +30,7 @@ customerGet i token = do
 module Servant.Server.Auth.Token(
   -- * Implementation
     authServer
+    , AuthAPI
   -- * Server API
   , HasStorage(..)
   , AuthHandler

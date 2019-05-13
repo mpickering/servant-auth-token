@@ -1,4 +1,4 @@
-{-# LANGUAGE DefaultSignatures, RecordWildCards #-}
+{-# LANGUAGE DefaultSignatures, RecordWildCards, UndecidableInstances #-}
 module Servant.Server.Auth.Token.Persistent.Schema where
 
 import Data.Text
